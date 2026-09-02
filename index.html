@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yuyin Lin | SSCI 591</title>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Leaflet CSS -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    >
+
+    <!-- Leaflet JavaScript -->
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+    </script>
+</head>
+
+
+<body>
+
+    <header>
+        <h1>Yuyin Lin</h1>
+        <p class="course-title">
+            SSCI 591 — Web & Mobile GIS — Fall 2026
+        </p>
+    </header>
+
+
+    <main>
+
+        <!-- My photo -->
+        <img
+            src="images/photo.jpg"
+            alt="A photo of Yuyin Lin"
+            class="portrait"
+        >
+
+
+        <h2>About Me</h2>
+
+        <p>
+            Hi! My name is Yuyin Lin, and I am a graduate student
+            studying Geographic Information Science and Technology
+            at the University of Southern California.
+        </p>
+
+        <p>
+            My academic background is in Computer Science and Technology.
+            I am interested in Web GIS, software engineering,
+            artificial intelligence, and geospatial technologies.
+        </p>
+
+        <p>
+            I enjoy building practical applications that combine
+            software development with GIS and intelligent systems.
+        </p>
+
+
+        <div class="clear"></div>
+
+
+        <h2>My Map</h2>
+
+        <p>
+            This interactive map shows USC and my hometown.
+            Use the buttons below to move between the two locations.
+        </p>
+
+
+        <!-- The map -->
+        <div id="map"></div>
+
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <button id="home-button">Take Me Home</button>
+
+            <button id="usc-button">Back to USC</button>
+        </div>
+
+
+        <p id="status">
+            Click a button and watch the map move.
+        </p>
+
+
+    </main>
+
+
+    <footer>
+        <p>Built for SSCI 591 — Fall 2026.</p>
+    </footer>
+
+
+    <!-- My JavaScript -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
